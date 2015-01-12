@@ -1,0 +1,181 @@
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+	margin-left: auto;
+    margin-right: auto;
+	height:auto
+}
+
+#primary {
+    float: left;
+    width: 250px;
+	margin-top:62px;
+}
+
+#content {
+    float: left;
+    width: 700px;
+}
+
+#secondary {
+    float: left;
+    width: 250px;
+	margin-top:62px;
+}
+
+#footer {
+    clear: both;
+}
+
+/*link styles
+style 1 = navigation
+style 2 = left/right navigation
+style 3 = links for content page main chapters
+style 4 = links for content page subchapters e.g. C3.1
+*/
+
+.class1 a:link {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Arial, sans-s;
+	font-size:20px;
+	margin-right:20px;
+	font-weight: bold;
+}
+.class1 a:visited {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Arial, sans-s;
+	font-size:20px;
+	margin-right:20px;
+	font-weight: bold;
+}
+.class1 a:hover {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Arial, sans-s;
+	font-size:20px;
+	margin-right:20px;
+	font-weight: bold;
+}
+.class1 a:active {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Arial, sans-s;
+	font-size:20px;
+	margin-right:20px;
+	font-weight: bold;
+}
+
+.class2 a:link {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size:16px;
+}
+.class2 a:visited {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size:16px;
+}
+.class2 a:hover {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size:16px;
+}
+.class2 a:active {
+    color:#1df995;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size:16px;
+}
+
+.class3 a:link {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 24px;
+}
+.class3 a:visited {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 24px;
+}
+.class3 a:hover {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 24px;
+}
+.class3 a:active {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 24px;
+}
+
+.class4 a:link {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 16pxpx;
+	margin-left:50px;
+}
+.class4 a:visited {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 16pxpx;
+}
+.class4 a:hover {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+.class4 a:active {
+    color:black;
+    background-color:transparent;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+/*Font properties */
+
+h1 {
+	font-family: Georgia, serif;
+	font-size:56px;
+}
+h2 {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	}
+h3 {
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+p {
+	font-family: Georgia, serif;
+	font-size: 14px;
+	}

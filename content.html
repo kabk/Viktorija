@@ -19,15 +19,14 @@
 	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
  
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-	 
+  
 </head>
 
-<body>
 <script>
 
 $(document).ready(function() {
  $(document).mousemove(function(e) {
-    pointer = $('<img>').attr({'src':'line.png'});
+    pointer = $('<img>').attr({'src':'line_3.png'});
     $(document.body).append(pointer);
 	
     pointer.css({
@@ -36,21 +35,19 @@ $(document).ready(function() {
 			
       top: e.pageY +15 , //offsets
       left: e.pageX +5 ,   //offsets
-     }).animate({  opacity: 0 }, 35000, function(){ $(this).remove(); });;
+     }).animate({  opacity: 0 }, 15000, function(){ $(this).remove(); });;
  });
 });
 
 </script>
+
+<body>
  
  <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
 </script>
-
-
-
-
 
 <div id="container">
 
@@ -68,8 +65,24 @@ $(document).ready(function() {
     </div>
     
     <div id="content">
-		<p><span class="class5">How can today’s media art be seen in the light of Kandinsky’s theory of interactivity?</span></p>
-		
+	
+	
+	<p><span class="class3"><a href="chapter1.html">Introduction</a>&nbsp;</span></p>
+	<p><span class="class3"><a href="chapter2.html">Concept of interactivity</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter2.html#C2.1">Formational interactivity</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter2.html#C2.2">Behavioral interactivity</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter2.html#C2.3">Communication is interactivity</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter2.html#C2.4">Interactivity and visual perception</a>&nbsp;</span></p>
+	<p><span class="class3"><a href="chapter3.html">Wassily Kandinsky and the theory Point and Line to Plane</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.1">Wassily Kandinsky, media art and code</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.2">The theory “Point and Line to Plane"</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.3">Concept of the point</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.4">Point in media art</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.5">Concept of the line</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.6">Line in media art</a>&nbsp;</span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.7">Concept of the plane</a></span></p>
+	<p><span class="class4"><a href="chapter3.html#C3.8">Plane in media art</a>&nbsp;</span></p>
+	<p><span class="class3"><a href="chapter4.html">Conclusion</a> </span></p>
     </div>
     
     <div id="secondary">

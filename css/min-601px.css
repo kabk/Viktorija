@@ -1,0 +1,31 @@
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header{
+	margin-left: auto;
+    margin-right: auto;
+	height:auto
+}
+
+#primary {
+    float: left;
+    width: 20%;
+	margin-top:62px;
+}
+
+#content {
+    float: left;
+    width: 60%;
+}
+
+#secondary {
+    float: left;
+    width: 20%;
+	margin-top:62px;
+}
+
+#footer {
+    clear: both;
+}
